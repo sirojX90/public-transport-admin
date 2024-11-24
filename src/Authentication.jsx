@@ -6,7 +6,6 @@ import Complain from './pages/Auth/Complain/Complain'
 import TransportCards from './pages/Auth/TransportCards/TransportCards'
 import BusOrder from './pages/Auth/BusOrder/BusOrder'
 import Views from './pages/Auth/Views/Views'
-import Features from './pages/Auth/Features/Features'
 
 function Authentication({ setToken }) {
   return (
@@ -19,7 +18,6 @@ function Authentication({ setToken }) {
           <Route path='/views' element={<Views/>}/>
           <Route path='/transport-cards' element={<TransportCards/>}/>
           <Route path='/bus-order' element={<BusOrder/>}/>
-          <Route path='/featuresIcon' element={<Features/>}/>
         </Routes>
       </div>
     </div>

@@ -38,7 +38,7 @@ function Complain() {
           <img src={bellIcon} alt="bell Icon here" width={28} height={28} />
         </div>
       </div>
-      <div className="pl-[30px] pr-[30px] pt-[45px]">
+      <div className="pl-[30px] pr-[30px] pt-[45px] pb-[45px]">
         <div className="flex justify-around mb-5">
           <h1 className="text-[#4F4F4F] text-[36px] font-semibold">
             Kelib tushgan shikoyatlar

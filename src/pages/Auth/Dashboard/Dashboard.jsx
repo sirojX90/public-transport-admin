@@ -100,9 +100,9 @@ function Dashboard({ setToken }) {
           </button>
         </div>
       </div>
-      <div className="pl-[30px] pr-[30px] pt-[45px]">
-        <div className="flex justify-between">
-          <div className="border-2 w-[20%] px-5 pt-10 pb-2 bg-blue-500 rounded-xl">
+      <div className="py-[45px] px-[100px]">
+        <div className="grid grid-cols-2 gap-10 border-2">
+          <div className="border-2 w-[100%] px-5 pt-10 pb-2 bg-blue-500 rounded-xl">
             <Link to="/complain">
               <div className="flex flex-col gap-5">
                 <div className="flex justify-between">
@@ -115,7 +115,7 @@ function Dashboard({ setToken }) {
               </div>
             </Link>
           </div>
-          <div className="border-2 w-[20%] px-5 pt-10 pb-2 bg-green-500 rounded-xl">
+          <div className="border-2 w-[100%] px-5 pt-10 pb-2 bg-green-500 rounded-xl">
             <Link to="/views">
               <div className="flex flex-col gap-5">
                 <div className="flex justify-between">
@@ -126,7 +126,7 @@ function Dashboard({ setToken }) {
               </div>
             </Link>
           </div>
-          <div className="border-2 w-[20%] px-5 pt-10 pb-2 bg-red-400 rounded-xl">
+          <div className="border-2 w-[100%] px-5 pt-10 pb-2 bg-red-400 rounded-xl">
             <Link to="/transport-cards">
               <div className="flex flex-col gap-5">
                 <div className="flex justify-between">
@@ -139,7 +139,7 @@ function Dashboard({ setToken }) {
               </div>
             </Link>
           </div>
-          <div className="border-2 w-[20%]  px-5 pt-10 pb-2 bg-yellow-400 rounded-xl">
+          <div className="border-2 w-[100%]  px-5 pt-10 pb-2 bg-yellow-400 rounded-xl">
             <Link to="/bus-order">
               <div className="flex flex-col gap-5">
                 <div className="flex justify-between">
